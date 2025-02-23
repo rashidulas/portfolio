@@ -18,10 +18,10 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 p-4 sm:px-12 flex justify-between items-center transition-all 
+      className={`fixed top-0 w-full h-16 z-50 px-6 sm:px-12 flex justify-between items-center transition-all 
       ${
         isDarkMode
-          ? "bg-black/80 text-white shadow-md"
+          ? "bg-black/70 text-white shadow-md backdrop-blur-lg"
           : "bg-gray-100 text-black shadow-lg"
       }`}
     >
@@ -29,8 +29,8 @@ const Navbar = () => {
       <Link href="/" className="flex items-center gap-2">
         <Image
           src="/images/site-logo.svg"
-          width={25}
-          height={25}
+          width={30}
+          height={30}
           alt="Rashidul AS Logo"
         />
         <p className="text-xl font-bold">
@@ -59,7 +59,6 @@ const Navbar = () => {
 
       {/* Social Icons & Theme Toggle */}
       <div className="flex items-center space-x-5">
-        {/* Social Links */}
         <a
           href="https://github.com/rashidulas"
           target="_blank"
@@ -80,8 +79,10 @@ const Navbar = () => {
         {/* Theme Toggle Button */}
         <Theme />
 
-        {/* Mobile Navigation */}
-        <MobileNavigation />
+        {/* Mobile Navigation (Visible on small screens) */}
+        <div className="sm:hidden">
+          <MobileNavigation />
+        </div>
       </div>
     </nav>
   );
