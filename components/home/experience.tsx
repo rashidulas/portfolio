@@ -2,24 +2,24 @@ import ExperienceCard from "@/components/ExperienceCard";
 
 export default function ExperiencePage() {
   return (
-    <div className="max-w-4xl mx-auto mt-10 space-y-4">
+    <div>
       <ExperienceCard
-        image="/portfolio-shoot.jpg" // Replace with your actual image path
-        title="PORTFOLIO SHOOT"
-        description="12 - 20 Edited photo"
-        price="500 - 1000$"
+        image="/icons/oit.png" // Replace with your actual image path
+        title="LEAD TECHNOLOGY ASSISTANT"
+        description="Office of Information Technology - UTA"
+        price="Oct 2022 - Present"
       />
       <ExperienceCard
-        image="/editorial-shoot.jpg"
-        title="EDITORIAL SHOOT"
-        description="12 - 20 Edited photo"
-        price="1000 - 1500$"
+        image="/icons/uta.png"
+        title="UNDERGRADUATE RESEARCH ASSISTANT"
+        description="Abacus Cloud and Edge Systems"
+        price="May 2023 - Aug 2023"
       />
       <ExperienceCard
-        image="/location-shoot.jpg"
-        title="LOCATION SHOOT"
-        description="12 - 20 Edited photo"
-        price="1500 - 2000$"
+        image="/icons/ACM.png"
+        title="OFFICER - ACM Create"
+        description="Association for Computing Machinery - UTA"
+        price="Aug 2024 - Present"
       />
     </div>
   );

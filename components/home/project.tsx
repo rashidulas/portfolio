@@ -7,11 +7,11 @@ export function Project() {
       src: "/projects/legalai.png",
     },
     {
-      title: "Valley of life",
+      title: "ShelfShare",
       src: "/projects/fleetpulse.png",
     },
     {
-      title: "Sala behta hi jayega",
+      title: "Trasva",
       src: "/projects/fleetpulse.png",
     },
     {
@@ -23,7 +23,7 @@ export function Project() {
       src: "/projects/fleetpulse.png",
     },
     {
-      title: "The First Rule",
+      title: "LunGuardian",
       src: "/projects/fleetpulse.png",
     },
   ];

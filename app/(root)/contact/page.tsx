@@ -1,4 +1,3 @@
-"use client";
 import { FaArrowDown } from "react-icons/fa";
 
 const Page = () => {

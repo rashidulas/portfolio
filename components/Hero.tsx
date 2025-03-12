@@ -6,7 +6,7 @@ export default function HeroSection() {
       {/* Top Grid Section */}
       <div className="grid grid-cols-5 gap-0 w-full h-[20vh] border-gray-400">
         <div className="border-r border-gray-400"></div>
-        <div className="border-r border-gray-400"></div>
+        <div className="border-r border-gray-400">sdasda</div>
         <div className="border-r border-gray-400"></div>
         <div className="border-r border-gray-400"></div>
         <div></div>
