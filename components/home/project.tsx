@@ -3,7 +3,7 @@ import { FocusCards } from "@/components/ui/focus-cards";
 export function Project() {
   const cards = [
     {
-      title: "LegalAI",
+      title: "Waste.0",
       src: "/projects/legalai.png",
     },
     {
@@ -15,15 +15,15 @@ export function Project() {
       src: "/projects/fleetpulse.png",
     },
     {
-      title: "Camping is for pros",
+      title: "Fleet Pulse",
       src: "/projects/fleetpulse.png",
     },
     {
-      title: "The road not taken",
+      title: "Legal AI",
       src: "/projects/fleetpulse.png",
     },
     {
-      title: "LunGuardian",
+      title: "Enduro",
       src: "/projects/fleetpulse.png",
     },
   ];
@@ -32,12 +32,12 @@ export function Project() {
     <div className="flex flex-col items-center py-10 px-5">
       {/* Title Section */}
       <div className="text-center mb-10">
-        <h3 className="text-xl font-semibold text-gray-500">projects</h3>
-        <h1 className="text-4xl font-bold">
-          <span className="text-yellow-600">(03) </span>PORTFOLIO
-        </h1>
+        <h3 className="text-xl font-semibold text-gray-500">Projects</h3>
+        <h1 className="text-4xl font-bold">PORTFOLIO</h1>
       </div>
-      <FocusCards cards={cards} />
+      <div className="w-full px-7">
+        <FocusCards cards={cards} />
+      </div>
     </div>
   );
 }
