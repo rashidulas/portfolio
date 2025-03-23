@@ -2,8 +2,8 @@ import React from "react";
 
 const PhotographyHero = () => {
   return (
-    <div className="bg-black text-white min-h-screen flex items-center justify-center p-4">
-      <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-8 relative z-20">
+    <div className="bg-black text-white min-h-[500px] flex items-center justify-center py-8">
+      <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-6 relative z-20">
         {/* Left side with image and text */}
         <div className="flex flex-col items-center md:items-start">
           <div className="w-3/4">
@@ -13,21 +13,25 @@ const PhotographyHero = () => {
               className="w-full h-auto rounded"
             />
           </div>
-          <p className="text-sm text-gray-400 mt-8 text-center md:text-left">
-            I love spending time to create masterpieces that are timeless.
+          <p className="text-sm text-gray-400 mt-4 text-center md:text-left">
+            I love spending time crafting digital solutions that are both
+            impactful and timeless.
           </p>
         </div>
 
         {/* Right side with text content */}
         <div className="flex flex-col justify-between h-full">
-          <div className="mt-8 md:mt-16 text-center md:text-left">
-            <p className="text-lg mb-8">
-              It's my passion and my art form. Each image I capture is a story
-              waiting to be told, a moment frozen in time, and an emotion
-              expressed through light and shadow.
+          <div className="mt-4 md:mt-8 text-center md:text-left">
+            <p className="text-base mb-4">
+              Building software is more than just code for me—it's my passion
+              and my creative expression. Every project I take on is a chance to
+              solve real problems, craft meaningful experiences, and bring ideas
+              to life through logic, design, and innovation. It’s where
+              technology meets purpose, and where I get to turn imagination into
+              impact.
             </p>
             <div className="flex justify-center md:justify-start">
-              <button className="border border-white px-6 py-3 inline-flex items-center transition-colors hover:bg-white hover:text-black">
+              <button className="border border-white px-5 py-2 inline-flex items-center transition-colors hover:bg-white hover:text-black">
                 <span className="mr-2">ABOUT ME</span>
                 <span>↗</span>
               </button>
@@ -35,7 +39,7 @@ const PhotographyHero = () => {
           </div>
           <div className="mt-auto">
             <div className="text-center md:text-right">
-              <p className="text-sm text-gray-400 mb-2">
+              <p className="text-sm text-gray-400 mb-1">
                 We can make it together
               </p>
               <a

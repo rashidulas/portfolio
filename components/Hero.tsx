@@ -33,14 +33,14 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Bottom Grid Section */}
+      {/* Bottom Grid Section
       <div className="grid grid-cols-5 gap-0 w-full h-[20vh] border-gray-200">
         <div className="border-r border-gray-200 border-t-0"></div>
         <div className="border-r border-gray-200"></div>
         <div className="border-r border-gray-200"></div>
         <div className="border-r border-gray-200 border-t-0"></div>
         <div></div>
-      </div>
+      </div> */}
       {/* Additional Bottom Grid of half height */}
       <div className="grid grid-cols-5 gap-0 w-full border h-[10vh] border-gray-200">
         <div className="border-r border-gray-200 border-t-0"></div>
