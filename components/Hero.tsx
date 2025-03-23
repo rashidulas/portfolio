@@ -2,7 +2,7 @@
 
 export default function HeroSection() {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center">
+    <div className="w-full flex flex-col items-center">
       {/* Top Grid Section */}
       <div className="grid grid-cols-5 gap-0 w-full h-[20vh] border-gray-400">
         <div className="border-r border-gray-200"></div>

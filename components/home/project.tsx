@@ -38,6 +38,15 @@ export function Project() {
       <div className="w-full px-7">
         <FocusCards cards={cards} />
       </div>
+      {/* Button Section */}
+      <div className="mt-8">
+        <a
+          href="/portfolio"
+          className="border border-gray-800 px-5 py-2 inline-flex items-center transition-colors hover:bg-black hover:text-white"
+        >
+          View All Projects
+        </a>
+      </div>
     </div>
   );
 }

@@ -31,10 +31,13 @@ const PhotographyHero = () => {
               impact.
             </p>
             <div className="flex justify-center md:justify-start">
-              <button className="border border-white px-5 py-2 inline-flex items-center transition-colors hover:bg-white hover:text-black">
+              <a
+                href="/about"
+                className="border border-white px-5 py-2 inline-flex items-center transition-colors hover:bg-white hover:text-black"
+              >
                 <span className="mr-2">ABOUT ME</span>
                 <span>↗</span>
-              </button>
+              </a>
             </div>
           </div>
           <div className="mt-auto">
@@ -43,7 +46,7 @@ const PhotographyHero = () => {
                 We can make it together
               </p>
               <a
-                href="#contact"
+                href="/contact"
                 className="uppercase border-b border-white pb-1 inline-block"
               >
                 CONTACT ME
