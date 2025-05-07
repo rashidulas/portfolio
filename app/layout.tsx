@@ -33,7 +33,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} antialiased`}
+        className={`
+          ${geistSans.variable}
+          ${geistMono.variable}
+          ${roboto.variable}
+          font-sans      /* ← now uses var(--font-roboto) */
+          antialiased
+        `}
       >
         <Navbar />
         {children}

@@ -13,6 +13,12 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			// Use the Roboto var first, then fall back to Tailwind's default sans stack
+			sans: ["var(--font-roboto)", ...defaultTheme.fontFamily.sans],
+			// Optional: Geist Mono for monospace
+			mono: ["var(--font-geist-mono)", ...defaultTheme.fontFamily.mono],
+		  },
   		colors: {
   			primary: {
   				'100': '#FFF1E6',
